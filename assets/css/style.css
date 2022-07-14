@@ -23,6 +23,13 @@
     --font-base: "Bai Jamjuree";
 }*/
 
+
+
+/*.navbar-brand , .navbar-nav{
+    border: 1px red solid;
+}*/
+
+
 body {
     background-color: var(--color-base2);
     color: var(--color-body);
@@ -34,13 +41,13 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 700;
 }
 
-a {
+.nav-link {
     text-decoration: none;
     color: var(--color-body);
     transition: all 0.4s ease;
 }
 
-a:hover{
+.nav-link:hover{
     color: var(--color-brand)
 }
 
